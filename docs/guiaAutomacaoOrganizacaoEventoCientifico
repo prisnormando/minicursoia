@@ -1,0 +1,57 @@
+# Guia Prático: Automação na Organização de Eventos Científicos com IA
+
+Este guia complementa o roteiro da oficina "IA para Pesquisa em Saúde Coletiva" e serve como um manual rápido para a equipe organizadora aplicar as técnicas ensinadas no dia a dia.
+
+---
+
+## 1. Planejamento Estratégico (Pré-Evento)
+
+A fase inicial exige estruturação e cronogramas precisos. A IA pode acelerar a criação de:
+
+### 1.1 Curadoria Científica
+*   **O que pedir à IA:** Sugestões de eixos temáticos, tópicos emergentes na área de saúde coletiva (ex: inovações em vigilância) e perfis de palestrantes (keynotes, painelistas).
+*   **Dica:** Forneça o escopo do congresso e peça para a IA atuar como um "Comitê Científico", avaliando a relevância dos temas propostos em relação ao público-alvo.
+
+### 1.2 Elaboração de Cronogramas
+*   **O que pedir à IA:** Um *Gantt Chart* ou cronograma reverso (contando a partir da data do evento para trás), listando marcos (milestones) como "Lançamento do Edital", "Fim das Inscrições", "Envio de Passagens".
+*   **Dica:** Peça o formato em tabela Markdown para facilitar a cópia para Excel ou ferramentas de gestão (Trello, Asana).
+
+---
+
+## 2. Comunicação e Logística (Pré e Durante o Evento)
+
+A comunicação falha é a principal causa de estresse em eventos. A IA ajuda a padronizar e automatizar o fluxo.
+
+### 2.1 Réguas de Relacionamento (E-mails)
+*   **O que pedir à IA:** Modelos de e-mail (templates) para:
+    *   Convite inicial (formal e persuasivo).
+    *   Lembrete de prazos (envio de resumos, slides).
+    *   Confirmação de logística (voos, hotel, transfer).
+    *   Agradecimento pós-evento.
+*   **Dica:** Insira variáveis no prompt, como `[Nome do Palestrante]`, `[Data Limite]`, para gerar templates prontos para ferramentas de Mala Direta (Mailchimp, SendGrid).
+
+### 2.2 Gestão Logística
+*   **O que pedir à IA:** Formulários estruturados para coleta de dados sensíveis (RG, CPF, preferências alimentares, necessidades de acessibilidade) necessários para a emissão de passagens aéreas e reservas de hotel.
+*   **Dica:** Use a lista gerada pela IA para criar rapidamente um formulário no Microsoft Forms ou Google Forms.
+
+---
+
+## 3. Fechamento e Pós-Evento
+
+O evento não termina na cerimônia de encerramento. A IA acelera a entrega de resultados.
+
+### 3.1 Automação de Certificados
+*   **O que pedir à IA:** Instruções passo a passo sobre como integrar uma planilha Excel (com os dados dos participantes) ao Microsoft Word usando a função "Mala Direta" (Mail Merge) para gerar centenas de certificados em PDF de uma só vez.
+*   **Dica:** Peça também para a IA redigir o texto legal padrão do certificado, incluindo carga horária, assinaturas necessárias e logotipos institucionais (ex: Fiocruz, Ministério da Saúde).
+
+### 3.2 Relatórios de Impacto
+*   **O que pedir à IA:** Análise de sentimento dos formulários de feedback de satisfação (NPS). Forneça as respostas abertas dos participantes e peça um resumo executivo destacando os pontos fortes e as áreas de melhoria para a próxima edição.
+*   **Dica:** A IA é excelente para categorizar comentários qualitativos ("Achei o coffee break fraco", "A palestra X foi incrível") em temas acionáveis.
+
+---
+
+## Boas Práticas e Cuidados
+
+*   **Revisão Humana:** A IA (Copilot, ChatGPT) é um *co-piloto*, não o piloto principal. Sempre revise datas, nomes e textos gerados antes do envio.
+*   **Privacidade de Dados (LGPD/GDPR):** **Nunca** insira dados pessoais sensíveis de participantes ou palestrantes (como CPFs, telefones pessoais ou endereços) nos prompts da IA. Use dados anonimizados ou variáveis (ex: `[CPF_AQUI]`).
+*   **Tom e Identidade:** Ajuste o tom da IA para combinar com a identidade visual e verbal da sua instituição (ex: Fiocruz Brasília NEVS-2).
